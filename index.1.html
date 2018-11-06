@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />        
+    <link href="css/estilo.css" rel="stylesheet">
+    <title> Wiliam Claro - Formulário</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="minha-foto">
+        <img src="img/wiliam.jpg" width="100px" height="100px">
+        <div class="subtitulo"><h2>MEU CURRÍCULO</h2></div>
+        <div class="meu-nome"><h2>Wiliam Claro</h2></div>
+        </div>
+    </header>
+    <main>
+        <form action="/formulario-contato" method="POST">
+        <section>
+            <h1>Formulario de Cadastramento</h1>
+            <form>
+                <b>Nome:</b><br>
+                <input type="text" name="nome"><br>
+                <div><hr size="8" width="99.4%"></div>
+                <b>Email:</b><br>
+                <input type="text" name="email">
+                <div><hr size="8" width="99.4%"></div>
+                <b>Senha:</b><br>
+                <input type="password" password="senha">
+                <div><hr size="8" width="99.4%"></div>
+                <b>Data Nascimento:</b><br>
+                <input type="date" data="data nascimento">
+                <div><hr size="8" width="99.4%"></div>
+                <b>Sexo:</b><br>
+                <input type="radio" name ="sexo" value="Masculino">Masculino<br>
+                <input type="radio" name ="sexo" value="Feminino">Feminino<br>
+                <div><hr size="8" width="99.4%"></div>
+                <b>Endereço:</b><br>
+                <br>
+                Rua:
+                <input type="text" name="rua">
+                Numero:                     
+                <input type="text" name="numero" size="4">                  
+                Bairro:                   
+                <input type="text" name="bairro"><br><br> 
+                Estado:                                   
+                <select name="estado">
+                <option value="ac">Acre</option> 
+                <option value="al">Alagoas</option> 
+                <option value="am">Amazonas</option> 
+                <option value="ap">Amapá</option> 
+                <option value="ba">Bahia</option> 
+                <option value="ce">Ceará</option> 
+                <option value="df">Distrito Federal</option> 
+                <option value="es">Espírito Santo</option> 
+                <option value="go">Goiás</option> 
+                <option value="ma">Maranhão</option> 
+                <option value="mt">Mato Grosso</option> 
+                <option value="ms">Mato Grosso do Sul</option> 
+                <option value="mg">Minas Gerais</option> 
+                <option value="pa">Pará</option> 
+                <option value="pb">Paraíba</option> 
+                <option value="pr">Paraná</option> 
+                <option value="pe">Pernambuco</option> 
+                <option value="pi">Piauí</option> 
+                <option value="rj">Rio de Janeiro</option> 
+                <option value="rn">Rio Grande do Norte</option> 
+                <option value="ro">Rondônia</option> 
+                <option value="rs">Rio Grande do Sul</option> 
+                <option value="rr">Roraima</option> 
+                <option value="sc">Santa Catarina</option> 
+                <option value="se">Sergipe</option> 
+                <option value="sp">São Paulo</option> 
+                <option value="to">Tocantins</option> 
+                </select>
+             
+                Cidade:            
+                <input type="text" name="cidade">
+                 CEP:            
+                <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+                <div><hr size="8" width="99.4%"></div>
+                <b>Habilidades:</b><br><br>
+                <input type="checkbox" name ="Habilidades" value="programacao">Programação<br>
+                <input type="checkbox" name ="Habilidades" value="design">Design<br>
+                <input type="checkbox" name ="Habilidades" value="redes">Redes<br>
+                <input type="checkbox" name ="Habilidades" value="negocio">Negócio<br>
+                <input type="checkbox" name ="Habilidades" value="documentacao">Documentação<br>
+                <input type="checkbox" name ="Habilidades" value="teste">Teste<br>
+                <input type="checkbox" name ="Habilidades" value="banco de dados">Banco de Dados<br>
+                <div><hr size="8" width="99.4%"></div>
+                <b>Resumo do seu Currículo: </b><br><br>
+                <textarea rows="10" cols="70" maxlength="1000"></textarea><br>
+                <input type="submit">
+            </form>
+
+        
+    </main>
+   
+    <aside>
+        
+        <h1>Outros Currículos</h1>
+        <a href="https://meu-curriculum-ads-iv.firebaseapp.com" target="_blank" style="text-decoration:none"><img class="foto-diversas" src="img/allyne.png" width="90px" height="93px"><section class="link-avatar"> Maria Allyne</section></a><br><br>                
+        <a href="https://meu-curriculo-diagols.firebaseapp.com/" target="_blank" style="text-decoration:none"><img class="foto-diversas" src="img/diagol.jpg" width="90px" height="93px"><section class="link-avatar">Diágol Shanchezs</section></a><br><br> 
+        <a href="https://curriculum-udeison.firebaseapp.com/" target="_blank" style="text-decoration:none"><img class="foto-diversas" src="img/udeilson.jpg" width="90px" height="93px"><section class="link-avatar">Udeilson Sousa</section></a><br><br> 
+        <a href="https://meu-curriculum-ads-iv.firebaseapp.com" target="_blank" style="text-decoration:none"><img class="foto-diversas" src="img/allyne.png" width="90px" height="93px"><section class="link-avatar"> Maria Allyne</section></a><br><br>                 
+        <a href="https://meu-curriculo-diagols.firebaseapp.com/" target="_blank" style="text-decoration:none"><img class="foto-diversas" src="img/diagol.jpg" width="90px" height="93px"><section class="link-avatar">Diágol Shanchezs</section></a><br><br>
+        <a href="https://curriculum-udeison.firebaseapp.com/" target="_blank" style="text-decoration:none"><img class="foto-diversas" src="img/udeilson.jpg" width="90px" height="92px"><section class="link-avatar">Udeilson Sousa</section></a>
+        
+    </aside>
+   
+    <footer>
+        Wiliam Francisco Claro da Silva © 2018
+        <ul class="Minhas-redes">
+            <a href="https://www.facebook.com/wiliam.claro" title="Facebook" target="_blank" >
+                <img src="img/wiliam-face.jpg" height="50px" width="50px">
+        </ul>
+    </footer>
+    
+    </body>
+</html>
